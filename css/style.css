@@ -3391,6 +3391,14 @@ box-shadow: 0 0 15px #00000020;
   width: 100%;
  
 }
+
+.item a{
+  border: 2px solid transparent;
+}
+.item a:hover{
+  background: #fd405610;
+  border: 2px solid #fd405620;
+}
 .filters-content .row {
   display: flex !important;
   align-items: center !important;
@@ -10430,4 +10438,10 @@ textarea {
         background: #fff;
         color: #fd4056; 
         border: 1px solid #fd4056;
+      }
+
+
+      .sticky-top-new{
+        position: sticky;
+        top: 150px !important;
       }
