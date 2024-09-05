@@ -10445,3 +10445,15 @@ textarea {
         position: sticky;
         top: 150px !important;
       }
+
+         .img-number-absolute {
+           position: absolute;
+           top: 0;
+           left: 0;
+           background-color: #fd4056;
+           color: white;
+           padding: 20px 30px;
+           border-radius: 2px 0 2px 0;
+           font-size: 16px;
+           font-weight: bold;
+         }
