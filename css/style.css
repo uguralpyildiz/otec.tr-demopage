@@ -9405,7 +9405,7 @@ box-shadow: 0 0 15px #00000020;
         }
         
 .dropdown li a{
-  width: 250px !important;
+  width: 270px !important;
   padding: 10px !important;
   transition: .1s ease all !important;
 }
@@ -9531,7 +9531,7 @@ box-shadow: 0 0 15px #00000020;
         font-size: 14px;
         z-index: 20;
         font-family: "icomoon";
-        content:;
+        
         position: absolute;
         top: 50%;
         left: 50%;
