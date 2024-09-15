@@ -9945,7 +9945,7 @@ textarea {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 60px;
     flex: 0 0 60px;
-    font-size: 50px;
+    font-size: 15px !important;
     position: relative;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -9959,8 +9959,8 @@ textarea {
       position: absolute;
       z-index: 1;
       left: -10px;
-      width: 50px;
-      height: 50px;
+      width: 35px;
+      height: 35px;
       border-radius: 50%;
       background: rgba(108, 117, 125, 0.05); }
   .service h3, .service .h3 {
@@ -10154,7 +10154,7 @@ textarea {
     margin-bottom: 10px;
     display: block; }
   .post-entry h5, .post-entry .h5 {
-    margin-bottom: 30px; }
+    margin-bottom: 0px; }
     .post-entry h5 a:hover, .post-entry .h5 a:hover {
       color: #E41D32;
       text-decoration: underline; }
@@ -10191,9 +10191,9 @@ textarea {
 
 .service-alt [class^="bi-"] {
   color: #E41D32;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
   font-size: 22px;
   margin-bottom: 0;
   background: #fff;
@@ -10206,6 +10206,10 @@ textarea {
 .service-alt h3, .service-alt .h3 {
   font-size: 20px;
   color: #000; }
+.sec-news .row .col-lg-4 .card{
+  margin-bottom: 30px;
+  box-shadow: 0 0 15px #00000010;
+}
 
 .article {
   margin-bottom: 90px; }
@@ -10458,4 +10462,19 @@ textarea {
            font-size: 16px;
            box-shadow: 0 0 15px #00000020;
            font-weight: bold;
+         }
+
+         .flexosa{
+          display: flex;
+          flex-wrap: wrap;
+         }
+         .flexosa .d-flex{
+          width: 50%;
+         }
+         .service-alt h3{
+          font-size: 13px !important;
+         }
+
+         .bi-check-circle-fill{
+          font-size: 16px !important;
          }
