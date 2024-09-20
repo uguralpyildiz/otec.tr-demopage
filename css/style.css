@@ -10237,8 +10237,12 @@ textarea {
     color: #000;
     margin-top: 30px; }
     .article h3{
-      color: #E41D32;
+      color: #353535;
       font-weight: 600;
+    }
+    .article li{
+      font-size: 18px;
+      color: #000;
     }
   .article .share {
     top: 20px; }
@@ -10543,7 +10547,7 @@ textarea {
           justify-content: center;
           color: #fff;
           font-weight: 800;
-          height: 50px ;
+          height: 100px ;
           width: 50px;
           background: red;
           font-size: 18px;
@@ -10554,10 +10558,11 @@ textarea {
           align-items: center;
           justify-content: center;
           flex-direction: column;
-          height: 50px;
+          height: 100px;
           width: 100%;
           padding: 0 25px;
           background: #dc354510;
+          text-align: center;
          }
         
          .box-os-main{
