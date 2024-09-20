@@ -4047,6 +4047,10 @@ box-shadow: 0 0 15px #00000020;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1rem 1rem; }
+ 
+  .article img{
+    width: 100%;
+  }
 .con{
   color: #b02a37 !important;
   background: #b02a3710;
@@ -10518,4 +10522,50 @@ textarea {
 
          .bi-check-circle-fill{
           font-size: 16px !important;
+         }
+
+         .boxeds{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 15px;
+          margin: 50px 0;
+         }
+         .box-ox{
+          display: flex;
+          align-items: center;
+          width: calc(50% - 15px);
+          border: 1px solid #00000020;
+         }
+         
+         .boxos-title{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-weight: 800;
+          height: 50px ;
+          width: 50px;
+          background: red;
+          font-size: 18px;
+          
+         }
+         .box-os{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          height: 50px;
+          width: 100%;
+          padding: 0 25px;
+          background: #dc354510;
+         }
+        
+         .box-os-main{
+          color: #000;
+          font-weight: 400;
+          font-size: 18px;
+         }
+         .box-os-main span{
+          color: red;
+          font-weight: 600;
          }
