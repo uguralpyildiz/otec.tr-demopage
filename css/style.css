@@ -10202,6 +10202,19 @@ textarea {
   border-radius: 4px;
   -webkit-box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.1); }
+.service-alt img{
+  width: 50px;
+
+}
+.service-alt{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 10px 0;
+}
+.bi-check-circle-fill{
+  display: none !important;
+}
 
 .service-alt h3, .service-alt .h3 {
   font-size: 20px;
@@ -10466,13 +10479,37 @@ textarea {
 
          .flexosa{
           display: flex;
+          align-items: center;
+          justify-content: center;
           flex-wrap: wrap;
          }
-         .flexosa .d-flex{
-          width: 50%;
-         }
-         .service-alt h3{
-          font-size: 13px !important;
+        
+         .flexosa h3{
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          gap: 15px;
+          width: 300px;
+          text-wrap: wrap;
+          margin: 0 !important;
+  background:  #e41d3220 !important;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 16px !important;
+}
+        .flexosa h3 div{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #E41D32;
+          padding: 10px;
+          color: #fff;
+          width: 30px !important;
+          height: 30px !important;
+          border-radius: 50%;
+        }
+         .flexosa .service-alt{
+          padding: 0;
          }
 
          .bi-check-circle-fill{
