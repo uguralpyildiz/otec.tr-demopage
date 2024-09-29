@@ -10162,7 +10162,10 @@ textarea {
     .post-entry h5 a:hover, .post-entry .h5 a:hover {
       color: #E41D32;
       text-decoration: underline; }
-
+.post-entry img{
+  height: 250px;
+  object-fit: cover;
+}
 .contact-info i {
   font-size: 20px;
   float: left;
@@ -10560,7 +10563,7 @@ textarea {
           flex-direction: column;
           height: 100px;
           width: 100%;
-          padding: 0 25px;
+          
           background: #dc354510;
           text-align: center;
          }
